@@ -1,0 +1,8 @@
+# Context filter for the commit image: keep the full tree including .git; drop only local build outputs.
+mayhem/build-fuzz/
+mayhem/build-test/
+mayhem-kat
+ctrf-report.json
+.DS_Store
+*.swp
+*~

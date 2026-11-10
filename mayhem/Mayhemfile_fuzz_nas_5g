@@ -1,0 +1,9 @@
+project: savantenvs/srsRAN_4G
+target: fuzz_nas_5g
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_nas_5g/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_nas_5g
+    libfuzzer: true
+    timeout: 30

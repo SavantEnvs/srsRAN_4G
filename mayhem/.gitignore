@@ -1,0 +1,3 @@
+# CMake build trees written by mayhem/build.sh (removed by `git clean -ffdX`)
+/build-fuzz/
+/build-test/
